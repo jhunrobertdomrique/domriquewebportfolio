@@ -1,0 +1,46 @@
+.items {
+    max-width: 100%;
+    height: auto;
+}
+#item-icon {
+    max-width: auto;
+    width: 200px;
+    height: auto;
+}
+.caption {
+    font-size: 15px;
+}
+#item {
+    font-size: 35px;
+}
+.caption-cont {
+    max-width: 100%;
+    height: 20vh;
+}
+
+.items {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 3s ease-out, transform 1s ease-out;
+}
+
+.items.fade-in {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+#item-container {
+    transition: transform 0.3s ease-in-out;
+}
+
+#item-container:hover {
+    transform: scale(1.1);
+}
+
+#btn-hover {
+    transition: transform 0.3s ease-in-out;
+}
+
+#btn-hover:hover {
+    transform: scale(1.5);
+}

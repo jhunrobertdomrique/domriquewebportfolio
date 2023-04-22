@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Jhun Robert Domrique Portfolio</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+            crossorigin="anonymous"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+            crossorigin="anonymous"
+        />
+        <!-- CSS Links -->
+        <link rel="stylesheet" type="text/css" href="./home.css" />
+        <link rel="stylesheet" type="text/css" href="./navbar.css" />
+        <link rel="stylesheet" type="text/css" href="./skills.css" />
+        <link rel="stylesheet" type="text/css" href="./about.css" />
+        <link rel="stylesheet" type="text/css" href="./projects.css" />
+
+        <!-- Google fonts======================= -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Font Awesome ======================  -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        />
+    </head>
+    <body>
+        <!-- HomePage -->
+        <section>
+            <div
+                class="header container-fluid d-flex align-items-center justify-content-center align-content-center text-center flex-column"
+            >
+                <div id="overlay"></div>
+
+                <video
+                    id="video"
+                    autoplay
+                    muted
+                    loop
+                    src="images/video.mp4"
+                    type="video/mp4"
+                ></video>
+                <div class="container">
+                    <div class="row">
+                        <div class="col m-auto z-3 home-text">
+                            <p class="position-relative display-5 text-white pp">
+                                Hello, I'm <a id="color">Jhun Robert Domrique</a>
+                            </p>
+                            <p class="position-relative display-5 text-white pp">
+                                I'm a full-stack web developer.
+                            </p>
+                            <a
+                                href="#homeNav"
+                                class="position-relative btn btn-outline-success view bb"
+                            >
+                                <span class="text-light">VIEW</span>
+                                <img id="toggle-ic" src="logo/more-icon.png" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- NavBar -->
+        <section id="homeNav">
+            <nav class="navbar navbar-expand-lg navbar-light bg-info-subtle">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img src="logo/R-logo2.png" class="logo" /></a>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#navbarNav"
+                        aria-controls="navbarNav"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <img src="logo/more-icon.png" class="icon" />
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Home <span class="sr-only"></span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#aboutme">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#proj">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact-me">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </section>
+
+        <!-- About -->
+        <section>
+            <div class="container-fluid items text-center">
+                <h1 id="aboutme" class="display-4 fw-normal">About</h1>
+                <div class="row justify-content-center align-items-center text-center">
+                    <div id="item-container" class="col-sm-6 col-md-3 text-muted">
+                        <img class="img-fluid" id="item-icon" src="items/bulb.png" />
+                        <h5 id="item">Intuitive</h5>
+                        <div class="container caption-cont">
+                            <p class="caption my-3">
+                                By picking the right tools and having excellent analytical skills. I
+                                can come up with innovative solutions.
+                            </p>
+                        </div>
+                    </div>
+                    <div id="item-container" class="col-sm-6 col-md-3 text-muted">
+                        <img class="img-fluid" id="item-icon" src="items/check.png" />
+                        <h5 id="item">Responsive</h5>
+                        <div class="container caption-cont">
+                            <p class="caption my-3">
+                                My layouts will work on any device, big or small. One of my main
+                                goals is to make a project functional and user-friendly.
+                            </p>
+                        </div>
+                    </div>
+                    <div id="item-container" class="col-sm-6 col-md-3 text-muted">
+                        <img class="img-fluid" id="item-icon" src="items/detail.png" />
+                        <h5 id="item">Quality-driven</h5>
+                        <div class="container caption-cont">
+                            <p class="caption my-3">
+                                I deal with logic and designs in extreme detail. I also adore
+                                simplicity and  I've always aimed to provide a high-quality project.
+                            </p>
+                        </div>
+                    </div>
+                    <div id="item-container" class="col-sm-6 col-md-3 text-muted">
+                        <img class="img-fluid" id="item-icon" src="items/rocket.png" />
+                        <h5 id="item">Dynamic</h5>
+                        <div class="container caption-cont">
+                            <p class="caption my-3">
+                                Websites don't have to be static, and I like giving them character.
+                                I express my talent by making things appealing and lively.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="b-example-divider"></div>
+
+        <!-- Skills -->
+        <section class="container-fluid my-5 skills">
+            <div id="contents" class="text-center">
+                <div class="row">
+                    <div class="col-md-4 mx-auto">
+                        <img
+                            id="profilepic"
+                            class="shadow p-1 mb-2 img-fluid item-container"
+                            src="profile/profile.jpg"
+                        />
+                        <p class="m-3 text-muted">
+                            I'm a full-stack Developer in Central Luzon,<a class="text-primary"
+                                >Philippines</a
+                            >
+                            . I have serious passion in designing and logics.
+                            <a class="text-primary">Let's make something special</a>.
+                        </p>
+                    </div>
+                    <div id="item-container" class="col-md-7 btn_w p-lg-5 mt-md-3">
+                        <button id="btn-hover" class="items btn btn-success w-50 my-1">CSS</button>
+                        <button id="btn-hover" class="items btn btn-danger w-75 my-1">HTML</button>
+                        <button id="btn-hover" class="items btn btn-primary w-75 my-1">
+                            JAVASCRIPT
+                        </button>
+                        <button id="btn-hover" class="items btn btn-warning w-50 my-1">
+                            NODEJS
+                        </button>
+                        <button id="btn-hover" class="items btn btn-info w-75 my-1">REACT</button>
+                        <button id="btn-hover" class="items btn btn-dark w-100 my-1">
+                            BOOTSTRAP
+                        </button>
+                        <button id="btn-hover" class="items btn btn-success w-50 my-1">
+                            MONGODB
+                        </button>
+                        <button id="btn-hover" class="items btn btn-danger w-50 my-1">
+                            EXPRESS JS
+                        </button>
+                        <button id="btn-hover" class="items btn btn-primary w-25 my-1">API</button>
+                        <button id="btn-hover" class="items btn btn-info w-50 my-1">POSTMAN</button>
+                        <button id="btn-hover" class="items btn btn-warning w-50 my-1">
+                            NOSQL
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="b-example-divider"></div>
+        <!-- Projects -->
+        <section>
+            <section class="py-5 text-center container">
+                <div class="row py-lg-5">
+                    <div class="col-lg-6 col-md-8 mx-auto">
+                        <h1 class="fw-light">Projects</h1>
+                        <p class="lead text-muted">I'm excited to introduce my works.</p>
+                        <p>
+                            <a href="#proj" class="btn btn-success my-2">Here we go.</a>
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <div id="proj" class="album py-5 bg-light">
+                <div class="container">
+                    <div class="row d-flex">
+                        <div id="project-hover" class="col-md-4 col-sm-12 my-md-3">
+                            <div class="card shadow-sm">
+                                <img class="img-fluid" src="projects/project1.png" />
+                                <div class="card-body">
+                                    <p class="card-text">
+                                        The employee handbook project website provides a concise and
+                                        practical guide for businesses to develop and manage an
+                                        up-to-date employee handbook. It covers essential policies,
+                                        procedures, and expectations that help maintain a positive
+                                        and productive work environment.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="project-hover" class="col-md-4 col-sm-12 my-md-3">
+                            <div class="card shadow-sm">
+                                <img class="img-fluid" src="projects/project2.png" />
+                                <div class="card-body">
+                                    <p class="card-text">
+                                        The physical fitness project website is a one-stop platform
+                                        that offers a wide range of resources, tools, and tips to
+                                        help individuals achieve their fitness goals. It provides
+                                        evidence-based information on exercise, nutrition, and
+                                        overall wellness, empowering users to adopt a healthier
+                                        lifestyle.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="project-hover" class="col-md-4 col-sm-12 my-md-3">
+                            <div class="card shadow-sm">
+                                <img class="img-fluid" src="projects/project3.png" />
+                                <div class="card-body">
+                                    <p class="card-text">
+                                        I created a website project for my portfolio showcasing the
+                                        work I did for the McArthur coffee house. The website
+                                        highlights their specialty coffee, history, unique brewing
+                                        methods, and expert barista interviews. It's a great example
+                                        of my skills in web design and development.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="project-hover" class="col-md-4 col-sm-12 my-md-3">
+                            <div class="card shadow-sm">
+                                <img class="img-fluid" src="projects/project4.png" />
+                                <div class="card-body">
+                                    <p class="card-text">
+                                        I work with the Philippines Initiative, an organization
+                                        dedicated to the care and preservation of marine animals.
+                                        The website features information on their mission, ways to
+                                        get involved, and resources for marine animal care.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="project-hover" class="col-md-4 col-sm-12 my-md-3">
+                            <div class="card shadow-sm">
+                                <img class="img-fluid" src="projects/project5.png" />
+                                <div class="card-body">
+                                    <p class="card-text">
+                                        The website features information on his coaching services,
+                                        success stories from previous clients, and strategies for
+                                        increasing customer acquisition. This project demonstrates
+                                        my skills in web design and development and my ability to
+                                        effectively communicate a business's message to its target
+                                        audience.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="project-hover" class="col-md-4 col-sm-12 my-md-3">
+                            <div class="card shadow-sm">
+                                <img class="img-fluid" src="projects/project6.png" />
+                                <div class="card-body">
+                                    <p class="card-text">
+                                        The website features a blog section where the blogger can
+                                        post articles, a bio section where readers can learn more
+                                        about the blogger, and a contact page. This project
+                                        highlights my skills in web design and development and my
+                                        ability to create a platform that effectively showcases a
+                                        writer's content.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="b-example-divider"></div>
+        <!-- Contact Form -->
+        <section>
+            <div class="container-fluid form-bg py-5" id="contact-me">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <h2 class="mb-4 mt-md-3 text-light text-center col-sm-11">
+                            Have a question or want to work together?
+                        </h2>
+                        <form
+                            action="https://formsubmit.co/d90ab6286f2c09e230ebdfffbe9ac3b1"
+                            method="POST"
+                            onsubmit="sendEmail(); reset(); return false;"
+                            class="shadow p-5"
+                            action="#"
+                            method="POST"
+                            class="col-sm-11"
+                        >
+                            <div class="form-group text-light">
+                                <input
+                                    type="text"
+                                    class="form-control"
+                                    id="email"
+                                    placeholder="Full Name"
+                                    required
+                                    name="Name"
+                                />
+                            </div>
+                            <div class="form-group text-light">
+                                <input
+                                    type="email"
+                                    class="form-control"
+                                    id="email"
+                                    placeholder="Enter email"
+                                    required
+                                    name="Email"
+                                />
+                            </div>
+                            <div class="form-group text-light">
+                                <input
+                                    type="tel"
+                                    class="form-control"
+                                    id="mobile"
+                                    placeholder="Enter mobile number"
+                                    required
+                                    name="Number"
+                                />
+                            </div>
+                            <div class="form-group text-light">
+                                <textarea
+                                    class="form-control"
+                                    id="concern"
+                                    rows="5"
+                                    placeholder="What's on your mind?"
+                                    required
+                                    name="Concern"
+                                ></textarea>
+                            </div>
+                            <button
+                                data-bs-toggle="modal"
+                                data-bs-target="#exampleModal"
+                                type="submit"
+                                class="btn btn-success mb-5"
+                            >
+                                Submit
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <section>
+            <footer class="bg-footer text-light py-3 col-md-12 col-lg-12 col-sm-11">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-4 col-md-8 mb-4">
+                            <h5>About Me</h5>
+                            <p class="text-muted text-light">
+                                I'm a web developer with experience in HTML, CSS, JavaScript, React,
+                                NodeJs, and Bootstrap. Contact me to learn more!
+                            </p>
+                        </div>
+                        <div class="col-lg-4 col-md-4 mb-4">
+                            <h5>Contact Me</h5>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a
+                                        href="mailto:youremail@example.com"
+                                        class="text-light text-muted"
+                                        ><i class="bi bi-envelope"></i>
+                                        jhunrobert.domrique121197@gmail.com</a
+                                    >
+                                </li>
+                                <li>
+                                    <a href="tel:+1234567890" class="text-light text-muted"
+                                        ><i class="bi bi-phone"></i> 09265780354</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        href="https://www.linkedin.com/in/jhun-robert-domrique-540302213/"
+                                        class="text-light text-muted"
+                                        target="_blank"
+                                        ><i class="bi bi-linkedin"></i> LinkedIn</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4 col-md-12 mb-4">
+                            <h5>Follow Me</h5>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a
+                                        href="https://www.facebook.com/robdomrique"
+                                        class="text-light text-muted"
+                                        target="_blank"
+                                        ><i class="bi bi-facebook"></i> Facebook</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        href="https://www.instagram.com/robdomrique101/"
+                                        class="text-light text-muted"
+                                        target="_blank"
+                                        ><i class="bi bi-instagram"></i> Instagram</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid text-center py-2">
+                    <a href="#top" class="btn btn-dark back-to-top"
+                        ><i class="fas fa-heart"></i> Back to Top</a
+                    >
+                </div>
+            </footer>
+        </section>
+
+        <!-- Modal -->
+        <!-- Modal -->
+        <div
+            class="modal fade"
+            id="exampleModal"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+        >
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Thank You!</h5>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                        ></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Thank you for reaching us! We'll get in touch as soon as possible.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                            Close
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- JavaScipt -->
+        <div>
+            <script
+                src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+                crossorigin="anonymous"
+            ></script>
+            <script
+                src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+                integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+                crossorigin="anonymous"
+            ></script>
+            <script
+                src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+                integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+                crossorigin="anonymous"
+            ></script>
+            <script
+                src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+                integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+                crossorigin="anonymous"
+            ></script>
+
+            <script>
+                const items = document.querySelectorAll('.items');
+
+                function fadeIn() {
+                    items.forEach((item) => {
+                        const itemTop = item.getBoundingClientRect().top;
+                        const windowHeight = window.innerHeight;
+                        if (itemTop < windowHeight) {
+                            item.classList.add('fade-in');
+                        }
+                    });
+                }
+
+                window.addEventListener('scroll', fadeIn);
+            </script>
+        </div>
+    </body>
+</html>

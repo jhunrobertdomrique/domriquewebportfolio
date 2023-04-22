@@ -1,0 +1,16 @@
+.logo {
+    max-width: 90px;
+    height: auto;
+}
+.icon {
+    max-width: 35px;
+    height: auto;
+}
+.border {
+    border-bottom: 20px;
+}
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
